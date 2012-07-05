@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CESS Lab Remote by aaruff</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>CESS Lab Remote</h1>
+        <p>The CESS Lab Remote starts, stops, and monitors applications on several computers in a lab environment from one location.</p>
+
+        <p class="view"><a href="https://github.com/aaruff/AppRemoteServer">View the Project on GitHub <small>aaruff/AppRemoteServer</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/aaruff/AppRemoteServer/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/aaruff/AppRemoteServer/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/aaruff/AppRemoteServer">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>CESS Lab Remote</h1>
+
+<p>The Center for Experimental Social Science Lab Remote is an Open Source cross platform tool developed to remotely start, stop, and monitor a program on several computers from one location in a computer lab environment.</p>
+
+<h2>Installation</h2>
+
+<p>The CESS Lab Remote consists of two applications the Server and the Client. The server application will be installed on only one computer (the server). The Client app will be configured and copied on to all of the computers in the lab to be remotely controlled. </p>
+
+<h3>Server Installation</h3>
+
+<ol>
+<li>Download the <a href="https://github.com/downloads/aaruff/AppRemoteServer/Remote-Server.zip">Server</a> app.</li>
+<li>Unzip the Remote-Server.zip file on the computer acting as the server.</li>
+<li>Edit the application_info.txt in the Server folder and add the programs you wish to run remotely.</li>
+</ol><p><strong>File Format: application_info.txt</strong><br><code>&lt;Program Name&gt;, &lt;Path To Program&gt;, &lt;Flags&gt;,</code></p>
+
+<p><strong>Example:</strong><br><code>Windows Media Player, C:\Program Files\Windows\Media Player\wmplayer.exe,,</code></p>
+
+<h3>Client Installation</h3>
+
+<ol>
+<li>Download the <a href="https://github.com/downloads/aaruff/AppRemoteClient/Remote-Client.zip">Client</a> app.</li>
+<li>Unzip the Remote-Client.zip file on each client computer you wish to run programs remotely on.</li>
+<li>Edit the client_location.txt in the Client folder and enter the servers ip address.</li>
+</ol><p><strong>File format: client_location.txt</strong><br><code>&lt;IP address&gt;, &lt;Server Port&gt;</code><br><strong>Example:</strong><br><code>192.168.0.1, 2600</code><br><strong>Note:</strong> 2600 is the default port used by the server. </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/aaruff">aaruff</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
