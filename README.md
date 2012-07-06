@@ -3,6 +3,10 @@ CESS Lab Remote (Server)
 The server package used to remotely control (start/stop/monitor)
 applications on computers running the [Lab Remote Client](https://github.com/aaruff/AppRemoteClient).
 
+Requirement
+------------------
+Java 1.6
+
 Installation
 ------------------
 1. Download the [Server](https://github.com/downloads/aaruff/AppRemoteServer/Remote-Server.zip) app.
