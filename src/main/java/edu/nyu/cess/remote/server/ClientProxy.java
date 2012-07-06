@@ -7,11 +7,11 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import edu.nyu.cess.remote.app.ExecutionRequest;
-import edu.nyu.cess.remote.app.State;
-import edu.nyu.cess.remote.network.ClientNetworkInterfaceObserver;
-import edu.nyu.cess.remote.network.DataPacket;
-import edu.nyu.cess.remote.network.LiteClientNetworkInterface;
+import edu.nyu.cess.remote.common.app.ExecutionRequest;
+import edu.nyu.cess.remote.common.app.State;
+import edu.nyu.cess.remote.common.net.ClientNetworkInterfaceObserver;
+import edu.nyu.cess.remote.common.net.DataPacket;
+import edu.nyu.cess.remote.common.net.LiteClientNetworkInterface;
 
 // TODO: Auto-generated Javadoc
 /**

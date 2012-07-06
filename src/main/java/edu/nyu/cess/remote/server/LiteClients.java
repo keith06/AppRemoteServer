@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.TreeSet;
 
-import edu.nyu.cess.remote.app.State;
+import edu.nyu.cess.remote.common.app.State;
 
 /**
  * @author akira

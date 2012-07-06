@@ -1,8 +1,8 @@
 package edu.nyu.cess.remote.server;
 
-import edu.nyu.cess.remote.app.StartedState;
-import edu.nyu.cess.remote.app.State;
-import edu.nyu.cess.remote.app.StopedState;
+import edu.nyu.cess.remote.common.app.StartedState;
+import edu.nyu.cess.remote.common.app.State;
+import edu.nyu.cess.remote.common.app.StopedState;
 
 public class LiteClient {
 

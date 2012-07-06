@@ -3,7 +3,7 @@
  */
 package edu.nyu.cess.remote.server;
 
-import edu.nyu.cess.remote.app.State;
+import edu.nyu.cess.remote.common.app.State;
 
 public interface ClientProxyObserver {
 

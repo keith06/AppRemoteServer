@@ -36,7 +36,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 
-import edu.nyu.cess.remote.server.ui.NoInsetsPanel;
+import edu.nyu.cess.remote.server.ui.NoInsetsPanel;;
 
 /**
  * @author akira

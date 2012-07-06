@@ -6,8 +6,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-import edu.nyu.cess.remote.network.ClientNetworkInterfaceObserver;
-import edu.nyu.cess.remote.network.SocketInfo;
+import edu.nyu.cess.remote.common.net.ClientNetworkInterfaceObserver;
+import edu.nyu.cess.remote.common.net.SocketInfo;
 
 public class ServerNetworkInterface {
 

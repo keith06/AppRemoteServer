@@ -7,11 +7,11 @@ import java.util.HashMap;
 
 import javax.swing.SwingUtilities;
 
-import edu.nyu.cess.remote.app.ApplicationInfo;
-import edu.nyu.cess.remote.app.ExecutionRequest;
-import edu.nyu.cess.remote.app.StartedState;
-import edu.nyu.cess.remote.app.State;
-import edu.nyu.cess.remote.app.StopedState;
+import edu.nyu.cess.remote.common.app.ApplicationInfo;
+import edu.nyu.cess.remote.common.app.ExecutionRequest;
+import edu.nyu.cess.remote.common.app.StartedState;
+import edu.nyu.cess.remote.common.app.State;
+import edu.nyu.cess.remote.common.app.StopedState;
 
 public class Server implements ClientProxyObserver {
 
